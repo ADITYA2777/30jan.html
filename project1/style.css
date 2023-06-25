@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+:root {
+    --main-bg-color: rgb(50, 42, 165);
+  }
+  
+*{
+
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight:bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius:8px;
+    margin: 0 16px 0 34px ;
+    padding: 0 9px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900px;
+}
+.container{
+    height: 80vh;
+}
+.silder{
+    width: 528px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.card{
+    width: 90vw;
+    margin: auto;
+}
+
+.carditems{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+card h2{
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Lato', sans-serif;
+}
